@@ -25,7 +25,7 @@ public class Book implements LibraryItem{
 
     @Override
     public double calculateLateFee(int days) {
-        return days * 15;
+        return days * 10;
     }
 
     @Override

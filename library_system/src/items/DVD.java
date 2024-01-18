@@ -25,7 +25,7 @@ public class DVD implements LibraryItem{
 
     @Override
     public double calculateLateFee(int days) {
-        return days * 25;
+        return days * 30;
     }
 
     @Override
