@@ -1,14 +1,15 @@
 package items;
 
 
+import segregate.LateFeeCalculatable;
+
 /**
  * Single responsibility principle
  */
 
-public interface LibraryItem {
+public interface LibraryItem extends LateFeeCalculatable {
     String getTitle();
     String getUniqueId();
-    int calculateLateFee(int days);
     double getValue();
 
 }

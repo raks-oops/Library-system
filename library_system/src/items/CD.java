@@ -24,7 +24,7 @@ public class CD implements LibraryItem{
     }
 
     @Override
-    public int calculateLateFee(int days) {
+    public double calculateLateFee(int days) {
         return days * 20;
     }
 
